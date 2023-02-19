@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: 500;
+    color: white;
+    background-image: url("https://cdn.windowsreport.com/wp-content/uploads/2019/12/Christmas.jpg");
+}
+
+section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 600px;
+    height: 400px;
+    background-color: #f5262b;
+    background-image: linear-gradient(135deg, #f5262b 19%, #ffa1a4 77%, #ffffff 100%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(19, 153, 19);
+}

@@ -1,0 +1,94 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #28005c;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    ;
+}
+
+section {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(228deg, #71b8ff 0%, #ce99ff 100%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form,
+input,
+p {
+    display: block;
+    margin: 10px auto;
+}
+
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#theWord {
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+form {
+    width: 60%;
+    /* border: 1px solid black; */
+    text-align: center;
+
+
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    background-color: #77e7ff;
+    border-style: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #003d8d;
+    opacity: 0.5;
+
+}
+
+button {
+    margin-top: 20px;
+    background-color: #28005c;
+    border-radius: 5px;
+    color: #9ddbff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover {
+    border-color: white;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    /* transform: translateY(-0.25em); */
+    cursor: pointer;
+}
