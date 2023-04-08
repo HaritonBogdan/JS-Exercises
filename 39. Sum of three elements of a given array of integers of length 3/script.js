@@ -9,4 +9,3 @@ function sumOfThree(array) {
 const array = [1, 2, 3];
 const sum = sumOfThree(array);
 console.log(sum);
-console.log(sum);
